@@ -1,0 +1,42 @@
+{
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-object-rest-spread",
+    ["transform-class-properties", { "spec": true }]
+  ],
+
+  "env": {
+    "modern": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": [
+              "Chrome >= 60",
+              "Safari >= 10.1",
+              "iOS >= 10.3",
+              "Firefox >= 54",
+              "Edge >= 15"
+            ]
+          },
+          "modules": false,
+          "useBuiltIns": true
+        }]
+      ]
+    },
+    "es5": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "> 1%",
+              "Firefox ESR"
+            ]
+          },
+          "modules": false,
+          "useBuiltIns": true
+        }]
+      ]
+    }
+  }
+}
