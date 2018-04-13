@@ -1,0 +1,26 @@
+{
+  "name": "pooh.js",
+  "version": "1.0.0",
+  "description": "A honeypot for forms.",
+  "main": "pooh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/BuddyLReno/poohjs.git",
+  "keywords": [
+    "honeypot",
+    "honey",
+    "honey pot",
+    "spam",
+    "spam checker"
+  ],
+  "author": "Buddy Reno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuddyLReno/poohjs/issues"
+  },
+  "homepage": "https://github.com/BuddyLReno/poohjs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
